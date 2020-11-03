@@ -6,7 +6,7 @@
   <li><b>POST /transactions</b> A rota recebe 'title', 'value' e 'type', sendo type o tipo da transação, que deve ser income para entradas (depósitos) e outcome para saídas (retiradas). Ao cadastrar uma nova transação, ela deve ser armazenada dentro de um objeto com o seguinte formato: </li>
   <img src="./assets/incomeExample.png">
   <li><b>GET /transactions</b> Essa rota retorna uma listagem com todas as transações, junto com o valor de soma de entradas, retiradas e total de crédito. Essa rota retorna um objeto com o formato a seguir:</li>
-  <img src="./assets/incomeExample.png">
+  <img src="./assets/outcomeExample.png">
 </ul>
 <br>
 <h3>Especificação dos testes</h3>
